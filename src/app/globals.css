@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 30;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-700 text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors;
+  }
+  
+  .game-container {
+    @apply w-full h-[600px] bg-black rounded-lg overflow-hidden;
+  }
+  
+  .chat-container {
+    @apply bg-gray-900 rounded-lg p-3 h-[400px] overflow-y-auto;
+  }
+} 
