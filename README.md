@@ -168,7 +168,7 @@ Pump Tournament uses a server-client architecture with WebSockets for real-time 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/pump-tournament.git
+git clone https://github.com/PumpTournament/PumpTournament.git
 cd pump-tournament
 ```
 
