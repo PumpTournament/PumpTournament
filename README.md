@@ -198,7 +198,6 @@ npm run dev:all
 
 - [Official Website](https://www.pumptm.online)
 - [Twitter](https://x.com/TournamentPump)
-- [Discord](https://discord.gg/pumptournament)
 
 ## License
 
